@@ -1,0 +1,33 @@
+{
+  "name": "movielist_ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "open-cli http://localhost:5000 & nodemon src/server.js"
+  },
+  "keywords": [
+    "Node",
+    "React",
+    "React Native",
+    "Javascript",
+    "MongoDB",
+    "Mysql",
+    "PostgreSql"
+  ],
+  "author": "Wilfan Salas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "node-fetch": "^2.6.1",
+    "open-cli": "^6.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
